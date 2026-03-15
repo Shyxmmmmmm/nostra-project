@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nostra</title>
-    <link href="./output.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--section1-->
-    <div id="one" class="text-white h-14 flex justify-center items-center gap-32" style="background-color:#1D232C;">
+    <div id="one" class="text-white h-[40px]  flex justify-center items-center gap-10" style="background-color:#1D232C;">
 
-        <h1 class="text-[clamp(14px,2.5vw,30px)] font-normal">
+        <h1 class="sm:text-lg md:text-xl lg:text-2xl font-normal">
             Sign Up and
             <span class="font-bold">GET 20% OFF</span>
             for your first Order
         </h1>
 
-        <i id="two" class="fa-solid fa-x text-xl pt-1 cursor-pointer"></i>
+        <i id="two" class="fa-solid fa-x  fa-xs text-xl pt-1 cursor-pointer"></i>
 
     </div>
 
@@ -32,7 +36,7 @@
         <div class="lg:hidden cursor-pointer" id="three">
             <i class=" flex justify-between items-center fa-solid fa-bars fa-xl" style="color: rgb(22, 22, 22);"></i>
         </div>
-        <div class="text-2xl hidden lg:flex">
+        <div class="text-xl hidden lg:flex">
             <ul class="flex justify-center items-center gap-14">
                 <li class="hover:underline"><a href="#">Home</a></li>
                 <li class="hover:underline"><a href="#new-arrivals">New Arrival</a></li>
@@ -64,27 +68,28 @@
     <nav class="flex flex-col z-10 relative px-5 pt-3">
 
         <div id="hero"
-            class="relative h-[60vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] w-full rounded flex flex-col items-center justify-center overflow-hidden  duration-5000">
+            class="relative h-[300px] md:h-[350px] lg:h-[500px] w-full rounded flex flex-col items-center justify-center overflow-hidden  duration-5000">
 
             <img id="heroImg" src="img/p26.jpg" class="absolute w-full h-full object-cover">
 
             <div class="absolute inset-0 bg-black/30"></div>
 
-            <h1 class="relative z-10 mb-5 text-center text-white font-extrabold text-[clamp(24px,6vw,80px)]">
+            <h1 class="relative z-10 mb-3 lg:mb-5 text-center text-white font-extrabold text-lg sm:text-2xl md:text-4xl lg:text-7xl">
                 Level Up Your Style With Our
             </h1>
 
-            <p class="relative z-10 text-white text-[clamp(20px,3vw,34px)] font-bold">
+            <p class="relative z-10 md:text-xl text-lg sm:text-xl lg:text-3xl text-white  font-bold">
                 Summer Collections
             </p>
 
-            <button class="relative z-10 cursor-pointer rounded mt-5 px-6 py-3 bg-white">
+            <button
+                class="relative z-10 cursor-pointer rounded mt-5 px-3 py-2 sm:px-4 sm:py-2 md:px-5 md:py-3 bg-white">
                 Shop Now →
             </button>
 
-            <img class="absolute left-10 top-1/2 -translate-y-1/2 cursor-pointer z-20" src="img/p1.png" id="left">
+            <img class="absolute left-2 top-1/2 -translate-y-1/2 cursor-pointer z-20" src="img/p1.png" id="left">
 
-            <img class="absolute right-10 top-1/2 -translate-y-1/2 cursor-pointer z-20" src="img/p2.png" id="right">
+            <img class="absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer z-20" src="img/p2.png" id="right">
 
         </div>
 
@@ -99,32 +104,32 @@
         <ul class="grid grid-cols-3 lg:grid-cols-6 gap-y-10 gap-x-14 text-center place-items-center">
 
             <li class="flex flex-col items-center">
-                <img class="h-20 md:h-24 lg:h-32 object-contain" src="img/p3.jpg">
-                <span class="mt-2 text-4xl md:text-base font-semibold">Puma</span>
+                <img class="h-20 md:h-24 lg:h-28 object-contain" src="img/p3.jpg">
+                <span class="mt-2 text-xl md:text-base font-semibold">Puma</span>
             </li>
 
             <li class="flex flex-col items-center">
-                <img class="h-20 md:h-24 lg:h-32 object-contain" src="img/p4.jpg">
+                <img class="h-20 md:h-24 lg:h-28 object-contain" src="img/p4.jpg">
                 <span class="mt-2 text-xl md:text-base font-semibold">Adidas</span>
             </li>
 
             <li class="flex flex-col items-center">
-                <img class="h-20 md:h-24 lg:h-32 object-contain" src="img/p5.png">
+                <img class="h-20 md:h-24 lg:h-28 object-contain" src="img/p5.png">
                 <span class="mt-2 text-xl md:text-base font-semibold">Nike</span>
             </li>
 
             <li class="flex flex-col items-center">
-                <img class="h-20 md:h-24 lg:h-32 object-contain" src="img/p6.png">
+                <img class="h-18 md:h-24 lg:h-28 object-contain" src="img/p6.png">
                 <span class="mt-2 text-xl md:text-base font-semibold">Crocs</span>
             </li>
 
             <li class="flex flex-col items-center">
-                <img class="h-20 md:h-24 lg:h-32 object-contain" src="img/p7.jpg">
+                <img class="h-20 md:h-24 lg:h-28 object-contain" src="img/p7.jpg">
                 <span class="mt-2 text-xl md:text-base font-semibold">NB</span>
             </li>
 
             <li class="flex flex-col items-center">
-                <img class="h-20 md:h-24 lg:h-32 object-contain" src="img/p8.png">
+                <img class="h-20 md:h-24 lg:h-28 object-contain" src="img/p8.png">
                 <span class="mt-2 text-xl md:text-base font-semibold">Jordan</span>
             </li>
 
@@ -134,13 +139,13 @@
 
     <!--section5-->
 
-    <nav class="px-5 mt-20 flex justify-between items-center">
-        <div class="">
-            <h1 class=" text-lg lg:text-5xl font-bold ">We Provide Best</h1>
-            <h1 class=" text-lg lg:text-5xl font-bold mt-1">Customer Experiences</h1>
+    <nav class="px-5 mt-20 flex gap-10 justify-between items-center">
+        <div class="sm:mr-4">
+            <h1 class="text-xs md:text-lg lg:text-4xl font-bold ">We Provide Best</h1>
+            <h1 class="text-xs md:text-lg lg:text-4xl font-bold mt-1">Customer Experiences</h1>
         </div>
         <div>
-            <p class="text-sm md:text-lg lg:text-3xl ">|| We ensure that our customer have the best shopping experience
+            <p class="text-sm md:text-lg lg:text-xl ">|| We ensure that our customer have the best shopping experience
             </p>
         </div>
     </nav>
@@ -149,37 +154,37 @@
     <!--section6-->
 
     <nav class="px-5 mb-20 mt-10 flex gap-5">
-        <div class="bg-[#F2F4F7] p-3 rounded  flex-1">
-            <div class="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px] lg:w-[70px] lg:h-[70px] mb-3">
+        <div class="bg-[#F2F4F7] p-3 rounded  flex-1 h-[100px]">
+            <div class="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mb-3">
                 <img class="w-full h-full" src="img/p9.png" alt="">
             </div>
 
-            <h1 class="font-bold sm:text-sm md:text-sm lg:text-xl">Original Products</h1>
-            <p class="lg:text-xl sm:text-xs md:text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <h1 class="font-bold text-xs md:text-sm lg:text-lg">Original Products</h1>
+            <p class="  text-xs md:text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident, repudiandae.</p>
         </div>
         <div class="bg-[#F2F4F7] p-3 rounded flex-1">
-            <div class="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px] lg:w-[70px] lg:h-[70px] mb-3">
+            <div class="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mb-3">
                 <img src="img/p10.png" alt="">
             </div>
-            <h1 class="font-bold sm:text-sm md:text-sm lg:text-xl">Satisfaction Guarantee</h1>
-            <p class="lg:text-xl sm:text-xs md:text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+            <h1 class="font-bold text-xs md:text-sm lg:text-xl">Satisfaction Guarantee</h1>
+            <p class="text-xs md:text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
                 voluptates.</p>
         </div>
         <div class="bg-[#F2F4F7] p-3 rounded flex-1">
-            <div class="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px] lg:w-[70px] lg:h-[70px] mb-3">
+            <div class="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mb-3">
                 <img src="img/p12.png" alt="">
             </div>
-            <h1 class="font-bold sm:text-sm md:text-sm lg:text-xl">New Arrival Everyday</h1>
-            <p class="lg:text-xl sm:text-xs md:text-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <h1 class="font-bold text-xs md:text-sm lg:text-xl">New Arrival Everyday</h1>
+            <p class="text-xs md:text-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Distinctio, quidem.</p>
         </div>
         <div class="bg-[#F2F4F7] p-3 rounded flex-1">
-            <div class="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px] lg:w-[70px] lg:h-[70px] mb-3">
+            <div class="w-[30px] h-[30px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mb-3">
                 <img src="img/p11.png" alt="">
             </div>
-            <h1 class="font-bold sm:text-sm md:text-sm lg:text-xl">Fast Delivery</h1>
-            <p id="new-arrivals" class="lg:text-xl sm:text-xs md:text-xs">Lorem ipsum dolor sit amet consectetur
+            <h1 class="font-bold text-xs md:text-sm lg:text-xl">Fast Delivery</h1>
+            <p id="new-arrivals" class="text-xs md:text-xs">Lorem ipsum dolor sit amet consectetur
                 adipisicing elit.
                 Possimus, quis?</p>
         </div>
@@ -187,117 +192,117 @@
 
     <!--section7-->
 
-    <h1 class="px-5 mb-10 font-bold text-4xl">New Arrivals</h1>
+    <h1 class="px-5 mb-10 font-bold text-3xl">New Arrivals</h1>
 
-    <div class="px-5 flex sm:gap-5 lg:gap-20 mb-20">
-        <div class="relative flex-1 sm:h-[150px] md:h-[250px] lg:h-[370px]">
+    <div class="px-5 flex gap-5 lg:gap-20 mb-20">
+        <div class="relative flex-1 h-[150px] md:h-[250px] lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="./img/p13.jpg">
             <div class="absolute inset-0 bg-black/50 rounded-lg"></div>
             <button
-                class="absolute sm:top-16 sm:left-8 sm:text-xs sm:p-1 md:top-30 md:left-10 md:text-lg lg:top-40 lg:left-24 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-6 lg:py-3 lg:text-xl bg-white">
+                class="absolute top-16 left-2 sm:left-9 lg:top-16 lg:left-10 md:top-16 md:left-10 text-xs p-2 md:top-30 md:left-12 md:text-lg lg:top-40 lg:left-16 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-4 lg:py-3 lg:text-xl bg-white">
                 Shop Now <i class="fa-solid fa-arrow-right-long fa-xs"></i>
             </button>
         </div>
 
-        <div class="relative flex-1 sm:h-[150px] md:h-[250px] lg:h-[370px]">
+        <div class="relative flex-1 h-[150px] md:h-[250px] lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="./img/p14.jpg">
             <div class="absolute inset-0 bg-black/50 rounded-lg"></div>
             <button
-                class="absolute sm:top-16 sm:left-8 sm:text-xs sm:p-1 md:top-30 md:text-lg md:left-10 lg:top-40 lg:left-24 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-6 lg:py-3 lg:text-xl bg-white">
+                class="absolute top-16 left-2 sm:left-9 lg:top-16 lg:left-10 md:top-16 md:left-10 text-xs p-2 md:top-30 md:left-12 md:text-lg lg:top-40 lg:left-16 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-4 lg:py-3 lg:text-xl bg-white">
                 Shop Now <i class="fa-solid fa-arrow-right-long fa-xs"></i>
             </button>
         </div>
 
-        <div class="relative flex-1 sm:h-[150px] md:h-[250px] lg:h-[370px]">
+        <div class="relative flex-1 h-[150px] md:h-[250px] lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="./img/p15.jpg">
             <div class="absolute inset-0 bg-black/50 rounded-lg"></div>
             <button
-                class="absolute sm:top-16 sm:left-8 sm:text-xs sm:p-1 md:top-30 md:text-lg md:left-10 lg:top-40 lg:left-24 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-6 lg:py-3 lg:text-xl bg-white">
+                class="absolute top-16 left-2 sm:left-9 lg:top-16 lg:left-10 md:top-16 md:left-10 text-xs p-2 md:top-30 md:left-12 md:text-lg lg:top-40 lg:left-16 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-4 lg:py-3 lg:text-xl bg-white">
                 Shop Now <i class="fa-solid fa-arrow-right-long fa-xs"></i>
             </button>
         </div>
 
-        <div class="relative flex-1 sm:h-[150px] md:h-[250px] lg:h-[370px]">
+        <div class="relative flex-1 h-[150px] md:h-[250px] lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="./img/p16.jpg">
             <div class="absolute inset-0 bg-black/50 rounded-lg"></div>
             <button
-                class="absolute sm:top-16 sm:left-8 sm:text-xs sm:p-1 md:top-30 md:text-lg md:left-10 lg:top-40 lg:left-24 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-6 lg:py-3 lg:text-xl bg-white">
+                class="absolute top-16 left-2 sm:left-9 lg:top-16 lg:left-10 md:top-16 md:left-10 text-xs p-2 md:top-30 md:left-12 md:text-lg lg:top-40 lg:left-16 cursor-pointer rounded-2xl mt-5 md:px-3 md:py-3 lg:px-4 lg:py-3 lg:text-xl bg-white">
                 Shop Now <i class="fa-solid fa-arrow-right-long fa-xs"></i>
             </button>
         </div>
     </div>
 
 
-    <div id="most-wanted" class="mb-20">
+    <div id="most-wanted" class="">
         <h1 class="text-white">shyam kumar A S </h1>
     </div>
 
 
     <!--section8-->
-    <h1 class="font-bold text-4xl px-5 mb-10">Most Wanted</h1>
+    <h1 class="font-bold text-3xl px-5 mb-10">Most Wanted</h1>
 
     <section class="px-5 flex gap-6 overflow-x-auto no-scrollbar mb-20">
 
         <div
-            class="relative min-w-[250px] sm:min-w-[200px] md:min-w-[300px] lg:min-w-[350px] sm:h-[200px] md:h-[280px] lg:h-[370px]">
+            class="relative min-w-[200px] h-[250px] md:min-w-[300px] md:h-[280px] lg:min-w-[250px]  lg:h-[300px]">
             <img class=" w-full h-full rounded-lg object-cover" src="img/p24.jpg">
             <button
-                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-3xl sm:p-1 md:p-2 lg:p-3">Sale</button>
-            <i class="six cursor-pointer absolute sm:top-40 md:top-60 lg:top-80 sm:left-36 md:left-56 lg:left-72 fa-regular fa-heart fa-2xl"
+                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-2xl p-1">Sale</button>
+            <i class="six cursor-pointer absolute top-55 left-[153px] md:top-60 lg:top-[264px] sm:left-36 md:left-60 lg:left-50 fa-regular fa-heart fa-2xl"
                 style="color: rgb(22, 22, 22);"></i>
         </div>
 
         <div
-            class="relative min-w-[250px] sm:min-w-[200px] md:min-w-[300px] lg:min-w-[350px] sm:h-[200px] md:h-[280px] lg:h-[370px]">
+            class="relative min-w-[200px] h-[250px] md:min-w-[300px] md:h-[280px] lg:min-w-[250px]  lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="img/p19.jpg">
             <button
-                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-3xl sm:p-1 md:p-2 lg:p-3">Sale</button>
-            <i class="six cursor-pointer absolute sm:top-40 md:top-60 lg:top-80 sm:left-36 md:left-56 lg:left-72 fa-regular fa-heart fa-2xl"
+                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-2xl p-1">Sale</button>
+            <i class="six cursor-pointer absolute top-55 left-[153px] md:top-60 lg:top-[264px] sm:left-36 md:left-60 lg:left-50 fa-regular fa-heart fa-2xl"
                 style="color: rgb(22, 22, 22);"></i>
         </div>
 
         <div
-            class="relative min-w-[250px] sm:min-w-[200px] md:min-w-[300px] lg:min-w-[350px] sm:h-[200px] md:h-[280px] lg:h-[370px]">
+            class="relative min-w-[200px] h-[250px] md:min-w-[300px] md:h-[280px] lg:min-w-[250px]  lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="img/p20.jpg">
             <button
-                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-3xl sm:p-1 md:p-2 lg:p-3">Sale</button>
-            <i class="six cursor-pointer absolute sm:top-40 md:top-60 lg:top-80 sm:left-36 md:left-56 lg:left-72 fa-regular fa-heart fa-2xl"
+                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-2xl p-1">Sale</button>
+            <i class="six cursor-pointer absolute top-55 left-[153px] md:top-60 lg:top-[264px] sm:left-36 md:left-60 lg:left-50 fa-regular fa-heart fa-2xl"
                 style="color: rgb(22, 22, 22);"></i>
         </div>
 
         <div
-            class="relative min-w-[250px] sm:min-w-[200px] md:min-w-[300px] lg:min-w-[350px] sm:h-[200px] md:h-[280px] lg:h-[370px]">
+            class="relative min-w-[200px] h-[250px] md:min-w-[300px] md:h-[280px] lg:min-w-[250px]  lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="img/p21.jpg">
             <button
-                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-3xl sm:p-1 md:p-2 lg:p-3">Sale</button>
-            <i class="six cursor-pointer absolute sm:top-40 md:top-60 lg:top-80 sm:left-36 md:left-56 lg:left-72 fa-regular fa-heart fa-2xl"
+                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-2xl p-1">Sale</button>
+            <i class="six cursor-pointer absolute top-55 left-[153px] md:top-60 lg:top-[264px] sm:left-36 md:left-60 lg:left-50 fa-regular fa-heart fa-2xl"
                 style="color: rgb(22, 22, 22);"></i>
         </div>
 
         <div
-            class="relative min-w-[250px] sm:min-w-[200px] md:min-w-[300px] lg:min-w-[350px] sm:h-[200px] md:h-[280px] lg:h-[370px]">
+            class="relative min-w-[200px] h-[250px] md:min-w-[300px] md:h-[280px] lg:min-w-[250px]  lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="img/p22.jpg">
             <button
-                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-3xl sm:p-1 md:p-2 lg:p-3">Sale</button>
-            <i class="six cursor-pointer absolute sm:top-40 md:top-60 lg:top-80 sm:left-36 md:left-56 lg:left-72 fa-regular fa-heart fa-2xl"
+                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-2xl p-1">Sale</button>
+            <i class="six cursor-pointer absolute top-55 left-[153px] md:top-60 lg:top-[264px] sm:left-36 md:left-60 lg:left-50 fa-regular fa-heart fa-2xl"
                 style="color: rgb(22, 22, 22);"></i>
         </div>
 
         <div
-            class="relative min-w-[250px] sm:min-w-[200px] md:min-w-[300px] lg:min-w-[350px] sm:h-[200px] md:h-[280px] lg:h-[370px] ">
+            class="relative min-w-[200px] h-[250px] md:min-w-[300px] md:h-[280px] lg:min-w-[250px]  lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="img/p23.jpg">
             <button
-                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-3xl sm:p-1 md:p-2 lg:p-3">Sale</button>
-            <i class="six cursor-pointer absolute  sm:top-40 md:top-60 lg:top-80 sm:left-36 md:left-56 lg:left-72 fa-regular fa-heart fa-2xl"
+                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-2xl p-1">Sale</button>
+            <i class="six cursor-pointer absolute top-55 left-[153px] md:top-60 lg:top-[264px] sm:left-36 md:left-60 lg:left-50 fa-regular fa-heart fa-2xl"
                 style="color: rgb(22, 22, 22);"></i>
         </div>
 
         <div
-            class="relative min-w-[250px] sm:min-w-[200px] md:min-w-[300px] lg:min-w-[350px] sm:h-[200px] md:h-[280px] lg:h-[370px]">
+            class="relative min-w-[200px] h-[250px] md:min-w-[300px] md:h-[280px] lg:min-w-[250px]  lg:h-[300px]">
             <img class="w-full h-full rounded-lg object-cover" src="img/p18.jpg">
             <button
-                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-3xl sm:p-1 md:p-2 lg:p-3">Sale</button>
-            <i class="six cursor-pointer absolute sm:top-40 md:top-60 lg:top-80 sm:left-36 md:left-56 lg:left-72 fa-regular fa-heart fa-2xl"
+                class="absolute rounded left-1 top-1 bg-red-500 text-white font-semibold sm:xl md:text-2xl lg:text-2xl p-1">Sale</button>
+            <i class="six cursor-pointer absolute top-55 left-[153px] md:top-60 lg:top-[264px] sm:left-36 md:left-60 lg:left-50 fa-regular fa-heart fa-2xl"
                 style="color: rgb(22, 22, 22);"></i>
         </div>
 
@@ -306,15 +311,15 @@
 
     <!--section9-->
 
-    <section class=" mx-5 flex bg-[#1D232C] pl-16 lg:gap-16">
-        <div class="p-5 py-10 sm:w-[350px] sm:h-[300px] lg:w-[600px] lg:h-[450px]">
+    <section class=" mx-5 flex bg-[#1D232C] px-10 gap-10 lg:gap-16">
+        <div class=" py-10 w-[350px] h-[250px] md:w-[450px] md:h-[300px] lg:w-[650px] lg:h-[450px]">
             <img class="w-full h-full" src="img/p17.jpg" alt="">
         </div>
-        <div class="flex flex-col justify-center sm:gap-1 lg:gap-5">
-            <h1 class=" text-white font-bold sm:text-2xl lg:text-6xl">Limited Offer</h1>
-            <p class="font-semibold text-white sm:text-md lg:text-4xl"><span class="font-bold">35% OFF </span>on this
+        <div class="flex flex-col justify-center gap-3 lg:gap-5">
+            <h1 class=" text-white font-bold text-2xl md:text-3xl lg:text-5xl">Limited Offer</h1>
+            <p class="font-semibold text-white text-md md:text-xl lg:text-3xl"><span class="font-bold">35% OFF </span>on this
                 for the first <span class="font-bold">30 Customers</span></p>
-            <button class="cursor-pointer rounded-2xl mt-5 sm:p-2 sm:w-[200px] lg:p-6 lg:w-[200px] text-2xl bg-white">
+            <button class="cursor-pointer rounded-2xl mt-5 p-1 md:w-[125px] md:p-1 md:py-2 lg:w-[200px] lg:p-3  text-xl bg-white">
                 Shop Now <i class="fa-solid fa-arrow-right-long fa-xs"></i>
             </button>
         </div>
@@ -324,32 +329,34 @@
     <!--section10-->
 
     <section class="flex flex-col items-center mt-25 gap-5">
-        <h1 class="text-4xl lg:text-6xl font-bold">Join Our News Letter</h1>
-        <p class="sm:text-lg md:text-xl lg:text-4xl font-normal">Signup for our email newspaper to get exclusive
+        <h1 class="text-4xl lg:text-5xl font-bold">Join Our News Letter</h1>
+        <p class="text-lg text-center md:text-xl lg:text-2xl font-normal">Signup for our email newspaper to get exclusive
             discounts, updates, and more</p>
-        <input type="Email" class="border w-[80%] border-4 border-[#1D232C] p-3">
-        <button class="border bg-[#1D232C] text-white rounded-2xl px-5 py-3 text-3xl cursor-pointer hover:bg-gray-900">Subscribe <i
-                class="fa-solid fa-arrow-right-long fa-xs" style="color: rgb(255, 255, 255);"></i></button>
+        <input type="Email" class="border w-[80%] border-3 border-[#1D232C] p-3">
+        <button
+            class="border bg-[#1D232C] text-white rounded-2xl px-5 py-3 text-xl cursor-pointer hover:bg-gray-900">Subscribe
+            <i class="fa-solid fa-arrow-right-long fa-xs" style="color: rgb(255, 255, 255);"></i></button>
     </section>
 
 
     <!--section11-->
 
     <section class="bg-[#1D232C] text-white p-14 flex flex-col gap-7 mt-20">
-        <h1 class="mt-5 text-4xl lg:text-6xl font-bold">Nostra</h1>
-        <p class="sm:text-lg md:text-2xl lg:text-4xl">The Standard chunk of Lorem ipsum used since the 1500s is
+        <h1 class="mt-5 text-3xl md:text-4xl lg:text-5xl font-bold">Nostra</h1>
+        <p class="text-xs md:text-xl lg:text-2xl">The Standard chunk of Lorem ipsum used since the 1500s is
             reprodused below for those interest</p>
         <div class="flex gap-20 mt-5">
-            <i class="fa-brands fa-instagram fa-2xl" style="color: rgb(255, 255, 255);"></i>
-            <i class="fa-brands fa-twitter fa-2xl" style="color: rgb(255, 255, 255);"></i>
-            <i class="fa-brands fa-facebook fa-2xl" style="color: rgb(255, 255, 255);"></i>
+            <i class="fa-brands fa-instagram fa-xl md:fa-2xl lg:fa-2xl" style="color: rgb(255, 255, 255);"></i>
+            <i class="fa-brands fa-twitter fa-xl md:fa-2xl lg:fa-2xl" style="color: rgb(255, 255, 255);"></i>
+            <i class="fa-brands fa-facebook fa-xl md:fa-2xl lg:fa-2xl" style="color: rgb(255, 255, 255);"></i>
         </div>
 
-        <p class="mt-5 text-2xl">@ 2023 Nostra.com</p>
+        <p class="mt-5 text-lg lg:text-2xl">@ 2023 Nostra.com</p>
     </section>
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
